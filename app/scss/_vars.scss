@@ -1,0 +1,19 @@
+%sub-title {
+	font-size: 20px;
+	font-style: italic;
+	color: blue;
+	margin-bottom: 20px;
+	@extend %roboto-700;
+}
+
+$accent: #000;
+$default: #8d8d8d;
+
+%quicksand-500 {
+	font-family: 'Quicksand-Medium', sans-serif;
+	font-weight: 500;
+}
+%roboto-700 {
+	font-family: 'Roboto-Bold', sans-serif;
+	font-weight: 700;
+}
